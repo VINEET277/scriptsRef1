@@ -1,0 +1,21 @@
+.routercontainer {
+    position: fixed;
+    top: 8vh;
+    width: 100%;
+    height: 95vh;
+    
+    background-image: linear-gradient(rgba(255, 0, 0, 1), rgba(255, 0, 0, 1)), url('../assets/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: hue;
+
+    > .router {
+        position: relative;
+        left: 10%;
+        top: 20%;
+        width: 80%;
+        height: 70%;
+    }
+}
+

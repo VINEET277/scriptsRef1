@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons+Outlined');
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 2em;
+  color: #0f44cf;
+
+  > .camera {
+    margin-top: 1em;
+    display: inline-block;
+    width: 30%;
+    height: 3em;
+
+    .camerastartpause {
+      font-size: 3em;
+      color: rgb(128, 128, 128, 0.5);
+    }
+  }
+
+  > .btns {
+    float: right;
+    color: white;
+    background-color: #0f44cf;
+    border: none;
+    margin-right: 0.5em;
+
+    &:active {
+      color: #0f44cf;
+      background-color: white;
+    }
+  }
+
+  > .details {
+    margin: auto;
+    margin-top: 1em;
+    width: 80%;
+    border: 2px solid grey;
+  }
+}
+

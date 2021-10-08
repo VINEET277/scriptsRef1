@@ -1,0 +1,20 @@
+{
+  "name": "html-to-excel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fast-csv/format": "^4.3.5",
+    "cheerio": "^1.0.0-rc.10"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.10",
+    "@types/textversionjs": "^1.1.1"
+  }
+}

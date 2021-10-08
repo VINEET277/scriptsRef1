@@ -1,0 +1,11 @@
+.homeviewcontroller {
+    height: 100%;
+
+    background-image: linear-gradient(rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5)), url('../assets/filters.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+
+    border-radius: 2em;
+}

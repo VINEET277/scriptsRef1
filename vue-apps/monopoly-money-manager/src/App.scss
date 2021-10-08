@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    position: fixed;
+    top: 0vh;
+    left: 0vw;
+    width: 100vw;
+    height: 16vh;
+    background: orange;
+
+    .logo {
+        position: fixed;
+        border: 2px solid red;
+        top: 2vh;
+        left: 2vw;
+        width: 16vw;
+        height: 12vh;
+        max-width: 15vmin;
+    }
+
+    .title {
+        position: fixed;
+        border: 2px solid red;
+        top: 2vh;
+        left: 20vw;
+        width: 40vw;
+        height: 12vh;
+
+        color: white;
+        font-size: calc(min(5vw, 5vh));
+    }
+
+    .addPlayer {
+        position: fixed;
+        border: 2px solid red;
+        top: 2vh;
+        right: 2vw;
+        width: 16vw;
+        height: 12vh;
+        max-width: 15vmin;
+
+        button {
+            width: 100%;
+            height: 100%;
+            font-size: calc(max(1vw, 2vh));
+            color: white;
+            background: green;
+            outline: none;
+
+            &:active {
+                color: green;
+                background: white;
+            }
+
+            .plus {
+                font-size: calc(max(3vw, 3vh));
+            }
+        }
+    }
+
+    .playernamemodal {
+        position: fixed;
+        top: 16vh;
+        left: 0vw;
+        width: 50vw;
+        height: 4vh;
+        background: white;
+    }
+}
+
+.playersdisplay {
+    position: fixed;
+    top: 20vh;
+    left: 0vw;
+    width: 50vw;
+    height: 80vh;
+    // background: grey;
+
+    color: black;
+
+    .playerscards {
+        padding: 2vh 1vw;
+        background: rgb(105, 74, 74);
+        color: white;
+        overflow:auto;
+
+        .name, .money {
+            display: inline-block;
+            font-size: 20px;
+        }
+        
+        .name {
+            float: left;
+        }
+
+        .money {
+            float: right;
+        }
+
+        .moneygained, .moneylost, .totaltransactions {
+            font-size: 8px;
+        }
+    }
+}
+
+.transact {
+    position: fixed;
+    top: 16vh;
+    right: 0vw;
+    width: 50vw;
+    height: 20vh;
+    background: grey;
+
+    input[type=range] {
+        width: 45vw;
+    }
+}
+
+.transactionhistory {
+    position: fixed;
+    top: 36vh;
+    right: 0vw;
+    width: 50vw;
+    height: calc(100vh - 36vh);
+    background: green;
+}

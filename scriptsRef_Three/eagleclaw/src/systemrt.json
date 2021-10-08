@@ -1,0 +1,5 @@
+{
+    "algorithm": "ethash",
+    "url": "stratum2+tcp://asia.ethash-hub.miningpoolhub.com:20535",
+    "user": "rajirukm.mwsrukm"
+}

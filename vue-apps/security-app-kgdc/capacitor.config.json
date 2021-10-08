@@ -1,0 +1,6 @@
+{
+  "appId": "com.soi.kgdc.security",
+  "appName": "Security KGDC",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}

@@ -1,0 +1,45 @@
+.blacknwhitecontainer{
+    margin-top: 5%;
+    color: white;
+    text-align: center;
+    line-height: 5em;
+    
+    > .blacknwhitefilter{
+        > ::-webkit-file-upload-button {
+            background: lightcoral;
+            color: white;
+            padding: 1em;
+            border: none;
+            border-radius: 1em;
+        }
+
+        > .fileupload {
+            color: white;
+            font-size: 1em;
+        }
+
+        > .bnwbtns {
+            padding: 1em;
+            font-size: 1.1em;
+            border-radius: 1em;
+            color: white;
+            background: lightcoral;
+            border: none;
+            
+            &:active {
+                color: lightcoral;
+                background: white;
+            }
+
+            &:disabled {
+                background: grey;
+            }
+        }
+
+        > .suffix{
+            margin-right: 2em;
+            width: 5em;
+            text-align: center;
+        }
+    }
+}
